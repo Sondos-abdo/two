@@ -2,11 +2,14 @@
 //
 
 #include <iostream>
-
+int add(int v, int b) {
+    return v + b;
+}
 int main()
 {
     std::cout << "Hello World!\n";
     std::cout << "Hello World!\n";
+    std::cout << add(4,6);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
